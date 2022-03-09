@@ -1,0 +1,103 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-team 
+  description: Platform Team
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    displayName: Platform Team
+    email: platformteam@set.or.th
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: natl.luengnaruemitchai
+spec:
+  profile:
+    displayName: Nat Luengnaruemitchai
+    email: natl@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: virat.vienvijak
+spec:
+  profile:
+    # Intentional no displayName for testing
+    displayName: Virat Vienvijak
+    email: virat@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: piyawat.sakornsukkit
+spec:
+  profile:
+    displayName: Piyawat Sakornsukkit
+    email: piyawatsa@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: kanjana.pradidchaikul
+spec:
+  profile:
+    displayName: Kanjana Pradidchaikul
+    email: kanjanapr@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pipat.ngamwiriyapong
+spec:
+  profile:
+    displayName: Pipat Ngamwiriyapong
+    email: pipatng@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: apichoke.prasitsiriphol
+spec:
+  profile:
+    displayName: Apichoke Prasitsiriphol
+    email: apichoke@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pornpak.janpha
+spec:
+  profile:
+    displayName: Pornpak Janpha
+    email: pornpak@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [platform-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: attapol.imdom
+spec:
+  profile:
+    displayName: Attapol Imdom
+    email: attapoli@set.or.th
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [platform-team]
