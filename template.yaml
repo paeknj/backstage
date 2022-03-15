@@ -33,6 +33,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+              - git.alm.set
 
   # here's the steps that are executed in series in the scaffolder backend
   steps:
