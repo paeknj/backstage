@@ -58,7 +58,7 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: This is ${{ parameters.name }}
-        repoUrl: https://github.com/paeknj/backstage
+        repoUrl: paeknj/backstage
 
     - id: register
       name: Register
