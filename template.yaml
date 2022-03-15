@@ -3,7 +3,7 @@ kind: Template
 # some metadata about the template itself
 metadata:
   name: v1beta3-demo
-  title: Cypress
+  title: Cypress2
   description: scaffolder v1beta3 template demo
 spec:
   owner: backstage/techdocs-core
@@ -58,7 +58,7 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: This is ${{ parameters.name }}
-        repoUrl: paeknj/backstage
+        repoUrl: ${{ parameters.repoUrl }}
 
     - id: register
       name: Register
