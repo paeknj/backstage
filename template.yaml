@@ -54,9 +54,9 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:github
+      action: publish:gitlab
       input:
-        allowedHosts: ['github.com']
+        allowedHosts: ['git.alm.set']
         description: This is ${{ parameters.name }}
         repoUrl: ${{ parameters.repoUrl }}
 
