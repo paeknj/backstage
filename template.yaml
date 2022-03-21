@@ -22,9 +22,16 @@ spec:
           type: string
           description: Unique name of the component
           enum:
-            - ARC
-            - ENS
-            - MIS
+            - arch
+            - cls
+            - dap
+            - drs
+            - ens
+            - fin-net
+            - mbs
+            - mfs
+            - mis
+            - tds
         System:
           title: System
           type: string
