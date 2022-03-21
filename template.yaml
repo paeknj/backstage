@@ -21,12 +21,10 @@ spec:
           title: Department
           type: string
           description: Unique name of the component
-          ui:field: OwnerPicker
-          ui:options:
-            allowedKinds:
-              - MIS
-              - ENS
-              - ARC
+          enum:
+            - ARC
+            - ENS
+            - MIS
         System:
           title: System
           type: string
