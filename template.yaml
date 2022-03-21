@@ -13,15 +13,31 @@ spec:
   parameters:
     - title: Fill in some steps
       required:
-        - name
+        - Department
+        - System
+        - Project_Name
       properties:
-        name:
-          title: Name
+        Department:
+          title: Department
           type: string
           description: Unique name of the component
           ui:autofocus: true
           ui:options:
             rows: 5
+        System:
+          title: System
+          type: string
+          description: Unique name of the component
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+        Project_Name:
+          title: Project Name
+          type: string
+          description: Unique name of the component
+          ui:autofocus: true
+          ui:options:
+            rows: 5           
     - title: Choose a location
       required:
         - repoUrl
