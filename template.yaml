@@ -21,9 +21,12 @@ spec:
           title: Department
           type: string
           description: Unique name of the component
-          ui:autofocus: true
+          ui:field: OwnerPicker
           ui:options:
-            rows: 5
+            allowedKinds:
+              - MIS
+              - ENS
+              - ARC
         System:
           title: System
           type: string
