@@ -28,9 +28,9 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: service
+  type: domain
   lifecycle: experimental
-  owner: team-a
-  system: artist-engagement-portal
+  owner: pae
+  system: setwebsiteA
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
