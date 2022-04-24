@@ -31,6 +31,6 @@ spec:
   type: domain
   lifecycle: experimental
   owner: pae
-  system: setwebsiteA
+  system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
   apiConsumedBy: ['component:www-artist']
