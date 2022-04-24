@@ -28,7 +28,7 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: domain
+  type: service
   lifecycle: experimental
   owner: team-a
   system: artist-engagement-portal
